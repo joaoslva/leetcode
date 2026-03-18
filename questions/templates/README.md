@@ -16,6 +16,6 @@ npm test
 
 ```bash
 cd java
-javac -cp ../../templates/junit-platform-console-standalone.jar Solution.java SolutionTest.java
-java -jar ../../templates/junit-platform-console-standalone.jar --class-path . --select-class SolutionTest
+javac -cp ../../templates/junit-platform-console-standalone-6.1.0-M1.jar Solution.java SolutionTest.java
+java -jar ../../templates/junit-platform-console-standalone-6.1.0-M1.jar execute --class-path . --select-class SolutionTest
 ```
