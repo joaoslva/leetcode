@@ -5,4 +5,19 @@ function judgeCircle(moves: string): boolean {
 
 };
 
+/* A simple for loop would be better in perfermance
+   Like so:
+
+   let i: number = 0;
+   let j: number = 0;
+
+   for (const move of moves) {
+        if (move === "U") i++;
+        else if (move === "D") i--;
+        else if (move === "L") j--;
+        else j++;
+   }
+
+   return i === 0 && j === 0;
+
 export { judgeCircle };
